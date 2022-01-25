@@ -16,7 +16,7 @@ const FilterByName = (props) => {
         type="text"
         name="name"
         id="name"
-        value={props.inputValue}
+        value={props.nameFilter}
         onChange={handleInput}
       />
     </>

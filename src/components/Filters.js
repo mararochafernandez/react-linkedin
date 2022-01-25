@@ -7,16 +7,17 @@ const Filters = (props) => {
     <section>
       <form>
         <FilterByName
-          inputValue={props.nameFilter}
+          nameFilter={props.nameFilter}
           handleFilter={props.handleFilter}
         />
 
         <FilterByGender
-          inputValue={props.genderFilter}
+          genderFilter={props.genderFilter}
           handleFilter={props.handleFilter}
         />
 
         <FilterByCities
+          citiesFilter={props.citiesFilter}
           cities={props.cities}
           handleFilter={props.handleFilter}
         />

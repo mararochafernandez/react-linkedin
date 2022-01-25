@@ -14,6 +14,7 @@ const FilterByCities = (props) => {
           type="checkbox"
           name="location"
           value={city}
+          checked={props.citiesFilter.includes(city)}
           onChange={handleChange}
         />
         {city}

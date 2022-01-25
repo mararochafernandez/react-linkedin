@@ -78,6 +78,7 @@ function App() {
         <Filters
           nameFilter={nameFilter}
           genderFilter={genderFilter}
+          citiesFilter={citiesFilter}
           cities={getCities()}
           handleFilter={handleFilter}
         />

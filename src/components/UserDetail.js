@@ -35,9 +35,9 @@ const UserDetail = (props) => {
             />
             <ul className="ml-1 mt-1">
               <li>Edad: {props.user.age}</li>
+              <li>Género: {props.user.gender}</li>
               <li>Ciudad: {props.user.city}</li>
               <li>Email: {props.user.email}</li>
-              <li>Género: {props.user.gender}</li>
             </ul>
           </section>
         </div>

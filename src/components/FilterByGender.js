@@ -15,7 +15,7 @@ const FilterByGender = (props) => {
         className="form__input-text"
         name="gender"
         id="gender"
-        value={props.inputValue}
+        value={props.genderFilter}
         onChange={handleInput}
       >
         <option value="all">Todos</option>
